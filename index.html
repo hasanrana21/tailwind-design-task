@@ -4,17 +4,98 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Tailwind Design</title>
-        <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="index.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
         <!-- CONTAINER -->
-        <div class="bg-slate-100 h-screen">
+        <div class="bg-slate-100 min-h-screen">
             <div class="flex justify-center">
                 <!-- WRAPPER -->
-                <div class="w-3/6 py-10">
+                <div class="w-3/6 py-16">
                     <!-- ITEM -->
-                    <div class="bg-white">hello world</div>
+                    <div
+                        class="bg-white px-6 py-4 flex space-x-4 rounded-lg mb-4">
+                        <div
+                            class="bg-slate-100 text-indigo-200 p-2 rounded-lg text-center h-24 flex flex-col justify-between mt-1">
+                            <i class="fa-solid fa-plus cursor-pointer"></i>
+                            <p class="py-2 text-indigo-500 font-bold">12</p>
+                            <i class="fa-solid fa-minus cursor-pointer"></i>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mt-1">
+                                <div class="flex items-center space-x-4 mb-2">
+                                    <img
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPSX6rnIejKF6jwH56EVGfSiimk09IYi1JAIYmSIf4Z__hXs-jP8RHKlbVc4GhSVyM_Ns&usqp=CAU"
+                                        alt=""
+                                        class="w-8 h-8 rounded-full object-cover" />
+                                    <span class="font-medium text-gray-600"
+                                        >Hasan Rana</span
+                                    >
+                                    <span class="text-gray-500">
+                                        1month ago
+                                    </span>
+                                </div>
+                                <div
+                                    class="text-indigo-800 font-medium cursor-pointer">
+                                    <i class="fa-solid fa-reply"></i>
+                                    Reply
+                                </div>
+                            </div>
+                            <p class="text-gray-500">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Enim placeat atque delectus
+                                vitae, suscipit consectetur repudiandae omnis
+                                laborum eveniet, rem fugit labore quam doloribus
+                                cumque odit ratione nisi! Sunt sint nam
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ITEM -->
+                    <div
+                        class="bg-white px-6 py-4 flex space-x-4 rounded-lg mb-4">
+                        <div
+                            class="bg-slate-100 text-indigo-200 p-2 rounded-lg text-center h-24 flex flex-col justify-between mt-1">
+                            <i class="fa-solid fa-plus cursor-pointer"></i>
+                            <p class="py-2 text-indigo-500 font-bold">5</p>
+                            <i class="fa-solid fa-minus cursor-pointer"></i>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mt-1">
+                                <div class="flex items-center space-x-4 mb-2">
+                                    <img
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGMptbHtRdqPXRMn6511OJWhmMBu340ikcg&usqp=CAU"
+                                        alt=""
+                                        class="w-8 h-8 rounded-full object-cover" />
+                                    <span class="font-medium text-gray-600"
+                                        >maxblagun</span
+                                    >
+                                    <span class="text-gray-500">
+                                        2weeks ago
+                                    </span>
+                                </div>
+                                <div
+                                    class="text-indigo-800 font-medium cursor-pointer">
+                                    <i class="fa-solid fa-reply"></i>
+                                    Reply
+                                </div>
+                            </div>
+                            <p class="text-gray-500">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Enim placeat atque delectus
+                                vitae, suscipit consectetur repudiandae omnis
+                                laborum eveniet, rem fugit labore quam doloribus
+                                cumque odit ratione nisi! Sunt
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
